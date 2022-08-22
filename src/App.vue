@@ -37,7 +37,6 @@
                 const ctx = canvas.getContext('2d');
 
                 const canv = Canvg.fromString(ctx, svgContent);
-                // canv.resize(512, 512);
                 canv.start();
                 
                 const img = canvas.toDataURL('image/png');
